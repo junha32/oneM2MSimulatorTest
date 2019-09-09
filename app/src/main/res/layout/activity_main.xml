@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    tools:context="com.example.myonem2msimulatortest.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:text="Device Model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/deviceModel"
+        android:hint="Device Model"/>
+
+    <TextView
+        android:text="Device Serial No."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/deviceSerNo"
+        android:hint="Device Serial No."/>
+
+    <TextView
+        android:text="Service Code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/serviceCode"
+        android:hint="Service Code"/>
+
+    <TextView
+        android:text="Device Type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/deviceType"
+        android:hint="Device Type"/>
+
+    <TextView
+        android:text="CTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/ctn"
+        android:hint="CTN"/>
+
+    <TextView
+        android:text="CTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/iccId"
+        android:hint="ICCID"/>
+
+    <CheckBox
+        android:text="인증 정보 기억하기"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox"
+        />
+
+    <Button
+        android:text="MEF 인증"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mefAuthBttn"/>
+
+</LinearLayout>
